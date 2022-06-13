@@ -10,7 +10,7 @@ app.use(morgan("combined"));
 app.use(express.static(path.join(__dirname, "/public/")));
 
 app.get("/", (req, res) => {
-  res.send("Hello user welcome to ton website i love you all");
+  res.send("Hello user welcome1 to ton website i love you all");
 });
 
 app.listen(port, () => {
