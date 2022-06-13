@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NungTonYedTar</title>
     <style>
+      /*.alert {
+        width: 1370px;
+        height: 83px;
+        background-color: yellow;*/
+      }
       img {
         width: 100%;
       }
@@ -29,8 +34,9 @@
       }
       .confirm {
         position: absolute;
+
+        top: 120px;
         left: 20px;
-        top: 2px;
         background-color: #248118;
         width: 90px;
         color: white;
@@ -49,9 +55,19 @@
         border-radius: 6px;
         font-size: 14px;
       }
+      .baht {
+        position: absolute;
+        top: 20px;
+      }
     </style>
   </head>
   <body>
+    <!--<div class="alert">
+      This is a Jelastic trial account. If you are the site owner and wish to
+      remove this banner please log into your
+      <a href="//app.manage.ruk-com.cloud/" target="_blank">Jelastic Cloud</a>
+      account and select 'Upgrade trial account'.
+    </div>-->
     <!--<img class="TonYedKuay" src="TonYed.jpg" alt="">-->
     <div class="box">
       <img class="TarYed" src="Tar.jpg" />
@@ -68,6 +84,7 @@
           <p>นครปฐม</p>
           <p>ชาย</p>
           <p>18 ปี</p>
+          <p class="baht">300 ฿</p>
         </div>
       </div>
     </div>
